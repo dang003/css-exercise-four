@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  display: inline-block;
+  text-align: center;
   width: 100%;
 }
 
@@ -31,6 +31,7 @@ body {
   margin-bottom: 15px;
   position: relative;
   float: left;
+  display: inline-block;
 }
 
 .image-text {
@@ -46,7 +47,10 @@ body {
   }
   .image {
     height: 220px;
-    max-width: 400px;
+    max-width: 90%;
+  }
+  body {
+    max-width: 100%;
   }
 }
 
@@ -58,5 +62,8 @@ body {
   .image {
     height: 160px;
     max-width: 300px;
+  }
+  body {
+    max-width: 100%;
   }
 }
